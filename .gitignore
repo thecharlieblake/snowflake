@@ -1,0 +1,13 @@
+mnt/
+mjkey.txt
+.idea/
+runs/
+/*.png
+**/__pycache__/
+checkpoint/
+summary/
+videos/
+log/
+.ipynb_checkpoints
+*.swp
+.pre-commit-config.yaml
