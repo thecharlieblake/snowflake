@@ -1,10 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       generate the xml files for each different sub-tasks of one master task
-#   @author:
-#       Tingwu Wang, Aug. 30th, 2017
-# -----------------------------------------------------------------------------
-
 import argparse
 from util import init_path
 import os

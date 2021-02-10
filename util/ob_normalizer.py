@@ -1,14 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       do a running mean and normalization on the observation
-#       This is actually very important for the performances
-#   @Updated:
-#       Jun., 22rd, 2017, by Tingwu Wang
-#       Aug., 8th, 2017, add the running mean by Tingwu Wang
-#       Oct., 10th, 2017, add the transfer running mean
-# -----------------------------------------------------------------------------
-
-
 class normalizer(object):
     """
         @brief:

@@ -1,13 +1,3 @@
-#!/usr/bin/env python2
-# -----------------------------------------------------------------------------
-#   @brief:
-#       In this function, we change the data from [batch_size, ob_dim] into
-#       [batch_size * num_node, hidden_dim]
-#   @author:
-#       Tingwu Wang, Jul. 13th, 2017
-# -----------------------------------------------------------------------------
-
-
 import numpy as np
 from util import init_path
 from util import logger

@@ -1,11 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       the agent that do the sampling of trajectories.
-#   @author:
-#       modified from the code of kvfran, modified by Tingwu Wang
-# -----------------------------------------------------------------------------
-
-
 import numpy as np
 import tensorflow as tf
 import gym

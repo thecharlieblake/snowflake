@@ -8,12 +8,9 @@ by Wang et al., 2018.
 
 ## Note on Anonymisation
 
-This is an anonymous repository. Best efforts have been made to remove the names
+Best efforts have been made to remove the names
 (and other identifying information) of the authors from the code.
-
-We have retained the licensing information in the original repo, which cites Tingwu Wang as
-the the author of many files - as these files are from the original repo this is **not a breach
-of the anonymisation requirements**.
+The original codebase also contained names of those authors, which we have also removed.
 
 ## Build
 

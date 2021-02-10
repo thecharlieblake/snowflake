@@ -1,10 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       The Centipede environments.
-#   @author:
-#       Tingwu (Wilson) Wang, Aug. 30nd, 2017
-# -----------------------------------------------------------------------------
-
 import numpy as np
 from gym import utils
 from gym.envs.mujoco import mujoco_env

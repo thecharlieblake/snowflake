@@ -1,11 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       generate the reacher
-#   @author:
-#       Tingwu Wang, Sept. 3rd, 2017
-# -----------------------------------------------------------------------------
-
-
 MUJOCO_XML_HEAD = """
 <mujoco model="modified_reacher">
   <compiler angle="radian" inertiafromgeom="true"/>

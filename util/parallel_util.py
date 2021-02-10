@@ -1,8 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       Define some signals used during parallel
-# -----------------------------------------------------------------------------
-
 # it makes the main trpo agent push its weights into the tunnel
 START_SIGNAL = 1
 

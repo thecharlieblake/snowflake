@@ -1,10 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       register the environments here
-#   @author:
-#       Tingwu Wang, July 3rd, 2017
-# -----------------------------------------------------------------------------
-
 from gym.envs.registration import register
 import num2words
 from . import asset_generator

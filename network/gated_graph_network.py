@@ -1,4 +1,3 @@
-# This is a refactored version of the NerveNet code, where the policy and baseline both inherit from the same class
 import tensorflow as tf
 import numpy as np
 from util import logger

@@ -1,12 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       The logger here will be called all across the project. It is inspired
-#   by Yuxin Wu (ppwwyyxx@gmail.com)
-#
-#   @author:
-#       Tingwu Wang, 2017, Feb, 20th
-# -----------------------------------------------------------------------------
-
 import logging
 import sys
 import os

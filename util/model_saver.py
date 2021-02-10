@@ -1,8 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief: it is out-dated
-#       in this model, we save the weights by our own function
-#       written by Tingwu Wang
-# -----------------------------------------------------------------------------
 from util import init_path
 import numpy as np
 from util import logger

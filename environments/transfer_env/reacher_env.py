@@ -1,11 +1,3 @@
-#!/usr/bin/env python2
-# -----------------------------------------------------------------------------
-#   @brief:
-#       The reacher task
-#   @author:
-#       Tingwu (Wilson) Wang, July 22nd, 2017
-# -----------------------------------------------------------------------------
-
 import numpy as np
 from gym import utils
 from gym.envs.mujoco import mujoco_env

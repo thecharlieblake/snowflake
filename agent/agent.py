@@ -1,11 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       In this function, we define the base agent.
-#       The base agent should be responsible for building the policy network,
-#       fetch the io placeholders / tensors, and set up the variable list
-#   @author:
-#       code originally from kvfran, modified by Tingwu Wang
-# -----------------------------------------------------------------------------
 import multiprocessing
 import numpy as np
 from graph_util import graph_data_util, gnn_util

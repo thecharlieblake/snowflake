@@ -1,11 +1,3 @@
-# ------------------------------------------------------------------------------
-#   @brief:
-#       In this file we init the path
-#   @author:
-#       Written by Tingwu Wang, 2016/Sep/22
-# ------------------------------------------------------------------------------
-
-
 import os.path as osp
 import sys
 import datetime

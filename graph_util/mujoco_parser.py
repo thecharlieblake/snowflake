@@ -1,19 +1,3 @@
-#!/usr/bin/env python2
-# -----------------------------------------------------------------------------
-#   @brief:
-#       Some helper functions to parse the mujoco xml template files
-#   @author:
-#       Tingwu Wang, Jun 23rd, 2017
-#   @UPDATE:
-#       1. add the tendon support
-#       2. add support for HumanoidStandup, halfCheeta, swimmer, hopper, walker
-#       3. add support for reacher, pendulumm
-#       4. MAJOR UPDATE Aug. 21, 2017: now the root only absorb the joints that
-#           are not motors.
-#       5. MAJOR UPDATE, removing all the geom node, Sept. 10th, 2017
-# -----------------------------------------------------------------------------
-
-
 from util import init_path
 from graph_util import gnn_util
 import os

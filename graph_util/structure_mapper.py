@@ -1,10 +1,3 @@
-#!/usr/bin/env python2
-# -----------------------------------------------------------------------------
-#   @author:
-#       Tingwu Wang, Jun 23rd, 2017
-# -----------------------------------------------------------------------------
-
-
 from util import init_path
 from util import logger
 from . import mujoco_parser

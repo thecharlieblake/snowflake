@@ -1,10 +1,3 @@
-# ------------------------------------------------------------------------------
-#   @brief:
-#       The optimization agent is responsible for doing the updates.
-#   @author:
-#       modified from the code of kvfran, modified by Tingwu Wang
-# ------------------------------------------------------------------------------
-
 import multiprocessing
 import os
 import time

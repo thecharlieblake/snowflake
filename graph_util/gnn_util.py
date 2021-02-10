@@ -1,13 +1,3 @@
-#!/usr/bin/env python2
-# -----------------------------------------------------------------------------
-#   @brief:
-#       Some helper functions to parse the mujoco xml template files
-#   @author:
-#       Tingwu Wang, Jun 23rd, 2017
-#   @UPDATE:
-# -----------------------------------------------------------------------------
-
-
 from util import init_path
 from util import logger
 from . import mujoco_parser

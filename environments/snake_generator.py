@@ -1,11 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       generate the snakes
-#   @author:
-#       Tingwu Wang, Sept. 1st, 2017
-# -----------------------------------------------------------------------------
-
-
 MUJOCO_XML_HEAD = """
 <mujoco model="swimmer">
   <compiler angle="degree" coordinate="local" inertiafromgeom="true"/>

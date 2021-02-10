@@ -1,11 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       modified from the code of kvfran
-#   @modified:
-#       Tingwu Wang
-# -----------------------------------------------------------------------------
-
-
 import multiprocessing
 import os
 from collections import defaultdict

@@ -1,10 +1,3 @@
-# ------------------------------------------------------------------------------
-#   @brief:
-#       record the parameters here
-#   @author:
-#       Tingwu Wang, 2017, June, 12th
-# ------------------------------------------------------------------------------
-
 import argparse
 from util import init_path
 import random

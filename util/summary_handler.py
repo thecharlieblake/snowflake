@@ -1,10 +1,3 @@
-# -----------------------------------------------------------------------------
-#   @brief:
-#       define the how to record the summary
-#   @author:
-#       Tingwu Wang
-# -----------------------------------------------------------------------------
-
 from util import init_path
 from util import logger
 import tensorflow as tf
