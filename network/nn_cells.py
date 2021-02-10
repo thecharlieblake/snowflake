@@ -1,8 +1,3 @@
-"""
-Basic cells of neural network
-
-Renjie Liao
-"""
 import tensorflow as tf
 from util import utils
 import numpy as np

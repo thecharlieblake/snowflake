@@ -6,9 +6,14 @@ This repo contains code for the paper:
 Our code builds upon the [NerveNet codebase](https://github.com/WilsonWangTHU/NerveNet)
 by Wang et al., 2018.
 
-**Note:** This is an anonymous repository. Best efforts have been made to remove the names of
-the authors from the code. As far as we are aware the only names that remain are those in the
-original codebase (i.e. of Wang et al.).
+## Note on Anonymisation
+
+This is an anonymous repository. Best efforts have been made to remove the names
+(and other identifying information) of the authors from the code.
+
+We have retained the licensing information in the original repo, which cites Tingwu Wang as
+the the author of many files - as these files are from the original repo this is **not a breach
+of the anonymisation requirements**.
 
 ## Build
 
