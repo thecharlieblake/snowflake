@@ -62,7 +62,7 @@ def set_file_handler(path=None, prefix="", time_str=""):
 
     if path is None:
         mod = sys.modules["__main__"]
-        path = os.path.join(os.path.abspath(mod.__file__), "..", "..", "log")
+        path = os.path.join(os.path.abspath(mod.__file__), "..", "log")
     else:
         path = os.path.join(path, "log")
     path = os.path.abspath(path)
