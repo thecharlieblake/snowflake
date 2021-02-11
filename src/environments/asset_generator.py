@@ -3,8 +3,6 @@ from util import init_path
 import os
 import num2words
 from . import centipede_generator
-from . import snake_generator
-from . import reacher_generator
 
 TASK_DICT = {
     "Centipede": [3, 5, 7] + [4, 6, 8, 10, 12, 14, 18] + [20, 24, 30, 40, 50],
@@ -31,8 +29,6 @@ def save_xml_files(model_names, xml_number, xml_contents):
 GENERATOR_DICT = {
     "Centipede": centipede_generator.generate_centipede,
     "CentipedeTT": centipede_generator.generate_centipede,
-    "Snake": snake_generator.generate_snake,
-    "Reacher": reacher_generator.generate_reacher,
 }
 
 if __name__ == "__main__":

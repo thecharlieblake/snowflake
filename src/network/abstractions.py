@@ -147,7 +147,6 @@ class Network:
             else:
                 self._trainable_var_list.append(var)
 
-        # Hack to make order consistent for VIB
         all_var_list = [
             var
             for var in tf.compat.v1.global_variables()

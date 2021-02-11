@@ -680,9 +680,6 @@ class GatedGraphNetwork(Network):
                             context, [self._batch_size_int * len(ntv), context_feature_size]
                         )
 
-                        # this should be bfatch_size, 1, hid_dim
-                        # context = tf.repeat(context, len(ntv), 1)
-                        # now this should be bsize, n, hid_dim
 
                         if self.args.always_feed_node_features:
                             node_upd_in = tf.concat(
@@ -711,8 +708,7 @@ class GatedGraphNetwork(Network):
                         node_type: new_state[i_id]
                         for i_id, node_type in enumerate(self._node_info["node_type_dict"])
                     }
-                new_state = tf.concat(new_state, 0)  # BTW, the order is wrong
-                # now, get the orders back
+                new_state = tf.concat(new_state, 0)
                 self._node_hidden[tt] = tf.gather(
                     new_state,
                     self._inverse_node_type_idx,
@@ -754,9 +750,6 @@ class GatedGraphNetwork(Network):
                     if not self.args.no_sharing_between_layers:
                         break
 
-        #self.compute_MAD()
-        # step 3: get the output
-        # this hacky -2 is because -1 contains the initial state, not the last one!!! x_X
         self._final_node_hidden = self._node_hidden[-2]
 
     def get_num_nodes(self):

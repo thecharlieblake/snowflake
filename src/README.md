@@ -1,9 +1,9 @@
 # Snowflake
 
-This repo contains code for the paper:
-"Snowflake: Scaling GNNs to High-Dimensional Continuous Control via Parameter Freezing".
+This repo contains software for our paper:
+*Snowflake: Scaling GNNs to High-Dimensional Continuous Control via Parameter Freezing*.
 
-Our code builds upon the [NerveNet codebase](https://github.com/WilsonWangTHU/NerveNet)
+Our code builds upon that written for *NerveNet: Learning Structured Policy with Graph Neural Networks*
 by Wang et al., 2018.
 
 ## Note on Anonymisation
