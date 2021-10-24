@@ -6,12 +6,6 @@ This repo contains software for our paper:
 Our code builds upon that written for *NerveNet: Learning Structured Policy with Graph Neural Networks*
 by Wang et al., 2018.
 
-## Note on Anonymisation
-
-Best efforts have been made to remove the names
-(and other identifying information) of the authors from the code.
-The original codebase also contained names of those authors, which we have also removed.
-
 ## Build
 
 To set up Snowflake, we recommend the use of the docker scripts contained here.
